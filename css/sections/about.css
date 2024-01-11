@@ -1,0 +1,36 @@
+.about-us {
+  display: flex;
+  min-height: 720px;
+  overflow: hidden;
+}
+
+.about-us__image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--color-white);
+
+  position: relative;
+}
+
+.about-us__image div {
+  padding: 32px 64px;
+
+  flex: 1;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about-us__image-sushi3 {
+  border-bottom: 8px solid var(--color-creamson);
+  background-image: url("../../assets/about_bg1.png");
+}
+
+.about-us__image-sushi2 {
+  background-image: url("../../assets/about_bg2.png");
+}
